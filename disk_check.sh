@@ -2,7 +2,7 @@
 set -e 
 # cmd to check the disk utilistation
 thershold=1
-var=$(df -h | grep '/dev/sdb'| awk '{print $5 }'| tr -d '%')
+var=$(df -h | grep '/dev/root'| awk '{print $5 }'| tr -d '%')
 # cmp the disk utlistation 
 if [[ $var -ge $thershold ]];
 then
