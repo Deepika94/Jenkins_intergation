@@ -11,5 +11,5 @@ then
  # echo "$mailbody" | mail -s "Disk Alert" "jai.deepika1994@gmail.com"
 elif [[ $var -lt $thershold ]];
 then
-  echo "Disk is running without issues"
+  echo "Disk  space is running without issues"
 fi
