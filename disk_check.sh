@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e 
 # cmd to check the disk utilistation
-thershold=10
+thershold=20
 var=$(df -h | grep '/dev/root'| awk '{print $5 }'| tr -d '%')
 # cmp the disk utlistation 
 if [[ $var -ge $thershold ]]
