@@ -1,4 +1,4 @@
-
+#!/bin/bash
 set -e 
 # cmd to check the disk utilistation
 thershold=20
